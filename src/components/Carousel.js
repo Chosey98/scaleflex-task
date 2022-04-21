@@ -112,7 +112,7 @@ function Carousel({
 			justify-content: center;
 			align-items: center;
 			position: absolute;
-			bottom: 4px;
+			bottom: 3px;
 			text-align: center;
 			width: 100%;
 			height: 30px;
