@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/scaleflex-task/static/css/main.abd64e84.css",
-    "main.js": "/scaleflex-task/static/js/main.e9629f89.js",
+    "main.js": "/scaleflex-task/static/js/main.51b6d122.js",
     "index.html": "/scaleflex-task/index.html",
     "main.abd64e84.css.map": "/scaleflex-task/static/css/main.abd64e84.css.map",
-    "main.e9629f89.js.map": "/scaleflex-task/static/js/main.e9629f89.js.map"
+    "main.51b6d122.js.map": "/scaleflex-task/static/js/main.51b6d122.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.e9629f89.js"
+    "static/js/main.51b6d122.js"
   ]
 }
