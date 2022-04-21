@@ -107,7 +107,7 @@ function Carousel({
 	}, []);
 	const ImageName = styled.div`
 		&::before {
-			content: '${images[currentImageId].name}';
+			content: '';
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -120,6 +120,21 @@ function Carousel({
 			font-family: 'Roboto', sans-serif;
 			font-size: 18px;
 			opacity: 0.7;
+			color: white;
+		}
+		&::after {
+			content: '${images[currentImageId].name}';
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: absolute;
+			bottom: 3px;
+			text-align: center;
+			width: 100%;
+			height: 30px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 18px;
+			opacity: 1;
 			color: white;
 		}
 		position: relative;
