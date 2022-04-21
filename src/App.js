@@ -15,7 +15,6 @@ function App() {
 			setImages(res.data);
 		}
 		fetchData();
-		console.log(images);
 	}, []);
 	return (
 		<div className="App">
